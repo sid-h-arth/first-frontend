@@ -1,0 +1,25 @@
+/* navigation section */
+#navbar{
+    flex-direction: column;
+}
+
+/*home section*/
+
+#home h1{
+    font-size: 27px;
+}
+#home p{
+    font-size: 12px;
+}
+
+/*services section*/
+#services{
+    flex-direction: column;
+}
+
+/*client section*/
+#clients{
+    overflow: hidden; /*hides the extra part when reduce the screen size*/
+}
+
+/*contact section*/

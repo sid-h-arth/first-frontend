@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID (Layout)</title>
+    <style>
+       .container{
+           display: grid;
+           grid-template-columns: repeat(3,240px);
+          /* grid-template-columns: 1fr 4fr 1fr;/*divides the columne in ratio 1:4:1*/
+          grid-gap: 2rem;
+       }
+       .item{
+           background-color: grey;
+           width: 200px;
+           padding: 6px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">this is item-1</div>
+        <div class="item">this is item-2</div>
+        <div class="item">this is item-3</div>
+        <div class="item">this is item-4</div>
+        <div class="item">this is item-5</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-6</div>
+
+    </div>
+</body>
+</html>
